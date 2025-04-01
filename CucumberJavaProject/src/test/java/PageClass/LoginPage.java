@@ -33,7 +33,7 @@ public class LoginPage
 
 	public void clickLoginButton()
 	{
-		   System.out.println("login button clicked");
+		  driver.findElement(By.xpath("//button[text()='Log in']"));
 	}
 
 	public void verifyLogin()
